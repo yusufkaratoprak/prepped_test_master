@@ -24,3 +24,10 @@ Update the backend and orchestrate migrating the 2 apps and script to kubernetes
 - Ensure you include the nessecorry documentations
 - Use git
 - Good luck
+
+
+#### Yusuf Notes 
+- Run below code for backend_api because it is clusterip
+- kubectl port-forward service/amro-backend-api-service 8081:8081 
+- Run below code for data_api because it is clusterip
+- kubectl port-forward service/amro-data-api-service 8083:8083 

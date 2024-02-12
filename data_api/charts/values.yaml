@@ -1,0 +1,12 @@
+# values.yaml
+appName: amro-data-api
+
+image:
+  repository: amro-data-api
+  tag: "latest"
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 8083
+  targetPort: 5003

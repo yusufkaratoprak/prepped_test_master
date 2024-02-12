@@ -1,0 +1,7 @@
+# Chart.yaml
+apiVersion: v2
+name: amro-data-api
+description: A Helm chart for AMRO application
+type: application
+version: 1.0.0
+appVersion: "1.0"
