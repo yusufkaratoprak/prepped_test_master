@@ -1,4 +1,4 @@
-# DevOps Orchestration assessment
+# Simple DevOps Orchestration 
 
 The repo containes:
 - Backend Api dummy application
